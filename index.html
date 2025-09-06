@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+   <a href="#content" class="logo">ARCADIO'S PORTFOLIO</a>
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+
+  <section class="hero" aria-labelledby="intro-title">
+  <div class="hero-grid">
+    <figure class="profile">
+      <img src="C:\Users\Vanessa Arcadio\OneDrive\Desktop\portfolio\me.jpg" alt="My Portrait"/>
+      <figcaption>Based in Butuan City, PH</figcaption>
+    </figure>
+    <div class="hero-content">
+      <h2 id="intro-title">Hi, I'm <span class="highlight">Vanessa Arcadio</span></h2>
+      <p class="lead">Creating simple, elegant, and functional websites.</p>
+      <a class="btn" href="#projects">🧑‍💻 See My Work</a>
+    </div>
+  </div>
+</section>
+
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="container">
+      <h2 id="about-title">ABOUT ME</h2>
+      <p>
+        I’m a beginner web developer who loves turning ideas into simple and user-friendly websites. I’m passionate about learning new technologies and improving my skills every day.
+      </p>
+      <p>
+        I'm currently exploring <strong>HTML and CSS</strong> fundamentals and crafting small projects.
+        You can reach me on <a href="#contact">Email</a> or see my code on 
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+  <div class="container">
+    <h2>PROJECTS</h2>
+    
+    <div class="projects-container">
+      
+      <div class="project-item">
+        <div class="project-image">
+          <img src="C:\Users\Vanessa Arcadio\OneDrive\Desktop\portfolio\A.png" alt="Project 1">
+        </div>
+        <div class="project-content">
+          <h3>PROJECT A</h3>
+          <div class="project-tags">
+            <span>Healthcare Appointment Management System</span>
+          </div>
+          <p>A simple and efficient system that helps patients book and manage appointments while allowing healthcare staff to organize schedules easily. It improves convenience, reduces waiting times, and enhances patient care.</p>
+          </div>
+      </div>
+      
+      <div class="project-item">
+        <div class="project-image">
+          <img src="c:\Users\Vanessa Arcadio\OneDrive\Desktop\portfolio\B.png" alt="Project 2">
+        </div>
+        <div class="project-content">
+          <h3>PROJECT B</h3>
+          <div class="project-tags">
+            <span>A Corrupt Office Simulation</span>
+          </div>
+          <p>A C-based simulation that models a corrupt office scenario using queue and stack data structures. It demonstrates how clients are managed under different conditions, showcasing concepts of data structures, file handling, and algorithm implementation.</p>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+  <section id="skills" class="section" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 id="skills-title">SKILLS</h2>
+      <ul class="chips" role="list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+        <li>Accessibility</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section" aria-labelledby="contact-title">
+  <div class="container">
+    <h2 id="contact-title">CONTACT</h2>
+    
+    <p class="contact-intro">
+      Let's connect <span class="heart">📩</span> — send me a message below:
+    </p>
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+      </div>
+      
+      <button type="submit" class="send-btn">
+        <span class="heart-icon">➤</span>
+        Send Message
+      </button>
+    </form>
+    
+    <div class="contact-info">
+      <p>Email: <a href="mailto:arcadiovanvan9223@gmail.com">arcadiovanvan9223@gmail.com</a></p>
+      <p>Location: Butuan City, Philippines</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  © <span id="year">2025</span> Vanessa Arcadio · Built with HTML & CSS
+</footer>
+
+</body>
+</html>
